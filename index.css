@@ -83,3 +83,12 @@ button{
     border: none;
 
 }
+.select_sel{
+    border: none;
+    background-color: #F9F9F9;
+    width:329px;
+    height: 35px;
+    padding-left: 10px;
+
+
+}
