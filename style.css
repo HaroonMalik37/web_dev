@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+
+
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 40px;
+}
+.ulis{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+li {
+    display: inline;
+    margin-right: 100px;
+}
+.contact_button{
+    background-color: #0A2D4F;
+    color: whitesmoke;
+    padding: 10px 40px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.para_heading{
+    font-weight: medium;
+    font-style: italic;
+    font-size: 18px;
+}
+.Intro_para{
+    line-height: 2;
+    width: 650px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+button{
+    display: block;
+    margin-top: 40px;
+    background-color: #0A2D4F;
+    border-radius: 6px;
+    padding: 10px 60px;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.hero_img{
+    margin-top: -260px;
+    float: right;
+    margin-right: 200px;
+}
+.About_heading{
+    width: 650px;
+    padding-top: 100px;
+    margin-left: 120px;
+    line-height: 2;
+
+}
+.Hello{
+    font-style: italic;
+    font-weight: medium;
+    font-size: 18px;
+}
+.cls li{
+    display: block;
+    list-style-type: none;
+    margin-left: 120px;
+    line-height: 2;
+    
+}
+
+.xls li{
+    display: block;
+    list-style-type: none;
+    line-height: 2;
+
+}
+.gamimg{
+    height: 250px;
+    float: right;
+    margin-top: -250px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+.xls{
+    
+    list-style-type: none;
+    margin-left: 300px;
+    margin-top: -130px;
+}
+
+.Projects_haeading{
+    padding-top: 100px;
+    margin-left: 120px;
+    font-weight: medium;
+    font-style: italic;
+    font-size: 18px;
+}
+.projects_images{
+    display: inline;
+    margin-left: 110px;
+    padding-top: 300px;
+}
+._images{
+    display: inline;
+    margin-left: 110px;
+    margin-top: 600px;
+}
+.proimg{
+    float: right;
+    width: 100px;
+    height: 400px;
+    margin-top: -400px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+}

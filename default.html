@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <title>Documet | Forms</title>
+</head>
+<header>
+    <strong>Forms</strong>
+</header>
+<body>
+    <section>
+        <div class="form">
+        <form action="/action_page.php" autocomplete="on">
+        <label for="Fname">First Name</label><br>
+        <input type="text" id="fname" class="fname"> <br><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" class="lname"> <br><br>
+        <input type="button" value="Submit"> 
+        <br>
+        <br>
+        <input list="browser" name="browser">
+        <datalist id="browser">
+            <option value="Chrome"></option>
+            <option value="safatre"></option>
+            <option value="google"></option>
+        </datalist>
+        <input type="submit">
+        </form>
+        </div>
+        <div class="cls">
+            <form>
+                <label for="cars">Choose a car</label>
+                <select name="cars" id="cars" >
+                    <option value="Vovlo">Vovlo</option>
+                    <option value="Sab">sab</option>
+                    <option value="fait" selected >fait</option>
+                    <option value="audi">audi</option>
+                </select>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+
+   
+</body>
+</html>

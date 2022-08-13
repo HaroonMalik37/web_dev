@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 40px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px; 
+}
+li{
+    display: inline;
+    margin-right: 100px;
+}
+.contact_button {
+    background-color: #0A2D4F;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+}
+.forms{
+    margin-left:120px ;
+    margin-top: 40px;
+}
+strong{
+    font-weight: medium;
+    font-size: 18px;
+}
+.field{
+    border: none;
+    background-color: #F9F9F9;
+    width:329px;
+    height: 35px;
+    padding-left: 10px;
+}
+label{
+    font-weight: medium;
+    font-size: 18px;
+
+}
+.figure{
+    float: right;
+    margin-top: -690px ;
+
+    
+}
+.radio_rad{
+    color: #222;
+    background-color: #F9F9F9;
+}
+.text_text{
+    border: none;
+    background-color: #F9F9F9;
+    width:329px;
+    height: 35px;
+    padding-left: 10px;
+}
+textarea{
+    background-color: #F9F9F9;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: none;
+
+}
+button{
+    background-color: #0A2D4F;
+    color: white;
+    padding: 10px 80px;
+    margin-left: 120px;
+    text-align: center;
+    border-radius:4px ;
+    border: none;
+
+}

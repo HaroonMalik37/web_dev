@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    margin: 0;
+    text-align: center;
+    padding: 10px 40px;
+    font-weight: medium;
+    background-color: aqua;
+    color: black;
+    font-size: 40px;
+    border-radius: 5px;
+}
