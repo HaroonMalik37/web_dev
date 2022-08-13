@@ -32,20 +32,23 @@
                 <label for="Address">Address:</label><br><br>
                 <input type="text" class="field" size="40"><br><br><br>
                 <span>Select the package you want to buy</span><br><br>
-                <input list="catageory"  class="field" placeholder="Select a catageory" size="40">
-                <datalist>
-                    <option value="Web-Dev"></option>
-                    <option value="Backend-Dev"></option>
-                    <option value="Andriod-Dev"></option>
-                    <option value="Game-Dev"></option>
-                </datalist><br><br>
+                
+                <select class="select_sel">
+                    <option value="Select a catageory">Select a catageory</option>
+                    <option value="Web-Dev">Web-Dev</option>
+                    <option value="Backend-Dev">Backend-Dev</option>
+                    <option value="Andriod-Dev">Andriod-Dev</option>
+                    <option value="Game-Dev">Game-Dev</option>
+                </select><br><br>
+
                 <p class="revision">How many reviosions you need</p><br>
-                <input type="radio" name="radio" value="20 reviosion" class="radio_rad">
-                <label for="rev">20 reviosion</label><br><br>
-                <input type="radio" name="css" value="30 reviosion" class="radio_rad">
-                <label for="css">30 reviosion</label><br><br>
-                <input type="radio" name="java"  value="40 reviosion" class="radio_rad">
-                <label for="java">40 reviosion</label><br><br><br>
+                <input type="radio" id="20 reviosion" name="revisions" value="20 reviosion" class="radio_rad">
+                <label for="20 reviosion">20 reviosion</label><br><br>
+                <input type="radio" id="30 reviosion" name="revisions" value="30 reviosion" class="radio_rad">
+                <label for="30 reviosion">30 reviosion</label><br><br>
+                <input type="radio" id="40 reviosion"name="revisions"  value="40 reviosion" class="radio_rad">
+                <label for="40 reviosion">40 reviosion</label><br><br><br>
+
                 <p class="about">From where did you hear about me?</p><br>
                 <input type="checkbox" name="facebook" id="facebook" value="facebook" class="checkbox_box">
                 <label for="facebook">facebook</label><br><br>
@@ -53,6 +56,7 @@
                 <label for="linkedin">linkedin</label><br><br>
                 <input type="checkbox" name="indeed" id="indeed" value="indeed" class="checkbox_box">
                 <label for="indeed">indeed</label><br><br><br>
+                
                 <p>Get 20% off by applying gift code:</p><br>
                 <input type="text" name="code" class="text_text" placeholder="Gift code here.." size="40"><br><br>
                 <p class="textarea">Do you have any message for me?</p><br>
