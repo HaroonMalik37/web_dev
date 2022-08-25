@@ -117,6 +117,7 @@ a{
     -moz-box-shadow: 22px 32px 61px -29px rgba(0,0,0,0.47);
     border: none;
     border-radius: 40px;
+
     
 
 }
@@ -263,4 +264,10 @@ table{
   ::placeholder {
     color: #FFFFFF;
     font-size: 18px;
+  }
+  .gamming{
+    transition: transform .7s ease-in-out;
+  }
+  .gamming:hover {
+    transform: rotate(360deg);
   }
